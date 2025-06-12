@@ -10,12 +10,12 @@ int main() {
      SetConsoleMode(hOut, dwMode);
 
      int a = 0;
-     cout << "\033[32mjust test <-this is string\033[0m" << endl;
-     while (a == 0)
+     cout << "\033[32mjust test <- this is string\033[0m" << endl;
+     cout << "Lets count!!! \n";
+     
+     while (fun() != false)
      {
-          string horray = fun();
-          cout << horray;
-          a += 1;
+          cout << fun();
      }
      return 0;
      
