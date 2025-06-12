@@ -2,6 +2,6 @@
 #define PROVON_H
 #include <iostream>
 std::string fun() {
-     return "hello friends \n";
+     return "hello humans! \n";
 }
 #endif
